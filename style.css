@@ -1,0 +1,124 @@
+html {
+  font-size: 100%;
+  font-family: vazir;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 97.7vh;
+  background: linear-gradient(#373b44, #4286f4);
+}
+.container {
+  width: 370px;
+  height: 460px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-top: rgba(255, 255, 255, 0.5) 1.5px solid;
+  border-left: rgba(255, 255, 255, 0.5) 1.5px solid;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.253);
+}
+.container form {
+  text-align: center;
+  top: 55%;
+  position: relative;
+  transform: translateY(-50%);
+}
+.container form h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.7rem;
+  text-align: center;
+  bottom: 115%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+.container form input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.151);
+  padding: 13px 120px 13px 10px;
+  margin: 0.7rem;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.178);
+  font-weight: 500;
+  color: rgb(236, 226, 226);
+  position: relative;
+  bottom: 20px;
+  font-size: 0.8rem;
+}
+::placeholder {
+  color: rgba(219, 215, 230, 0.788);
+}
+.btn {
+  position: relative;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.151);
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.178);
+  font-weight: 500;
+  padding: 10px 35px;
+  color: rgb(236, 226, 226);
+  transition: 0.5s;
+  top: 12px;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  top: 45px;
+  color: rgba(172, 186, 204, 0.692);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.btn:hover {
+  padding: 10px 60px;
+}
+.password {
+  top: -12px;
+}
+/* you can use these squares if you want to */
+/* .square {
+  background-color: rgba(255, 255, 255, 0.15);
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.137);
+}
+.square1 {
+  width: 90px;
+  height: 90px;
+  top: 194px;
+  left: -250px;
+}
+.square2 {
+  width: 70px;
+  height: 70px;
+  top: 122px;
+  left: 174px;
+}
+.square3 {
+  width: 100px;
+  height: 100px;
+  top: -470px;
+  left: 159px;
+}
+.square4 {
+  width: 80px;
+  height: 80px;
+  top: -550px;
+  left: -240px;
+}
+.main-square {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+.container {
+  z-index: 2;
+} */
